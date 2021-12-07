@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5) ,rgba(0, 0, 0, 0.5)),url("Img2.jpg");
+    height:700px;
+    background-size:cover;
+    background-position: center;
+
+}
+
+.nav-menu{
+    float:right;
+    list-style:none;
+    margin-top:40px;
+}
+
+.nav-menu li{
+    display:inline-block;
+}
+
+.nav-menu li a{
+    color:white;
+    text-decoration: none;
+    padding:10px 60px;
+    font-family:'Verdana';
+    font-size:20px;
+}
+.homebtn{
+    border:8px solid tomato;
+    background-color:tomato;
+}
+
+.nav-menu li a:hover{
+    border:5px solid tomato;
+    background-color:tomato;
+}
+
+.tagline{
+    position: absolute;;
+    width:1200px;
+    margin-left:0;
+    margin-top:0;
+}
+
+h1{
+    color:white;
+    font-size:50px;
+    font-family:"Verdana";
+    text-align:center;
+    justify-content: center;
+    margin-top:150px;
+}
+
+.sign{
+    margin-top:30px;
+    margin-left:540px;
+}
+
+.bttn{
+    border:5px solid white;
+    padding:10px 30px;
+    color: white;
+    font-family:"Verdana";
+    font-size:20px;
+    text-decoration: none;
+}
+
+.sign a:hover{
+    background-color:tomato;
+
+}
+
+.login{
+    width:382px;
+    overflow: hidden;
+    margin:auto;
+    margin:20 0 0 450px;
+    padding:80px;
+    background:#23463f;
+    border-radius: 15px;;
+
+}
+
+h2{
+    text-align: center;
+    font-family:"Verdana";
+    color:#277582;
+    font-size:30x;
+    padding:40px;
+}
+
+label{
+    color:#08ffd1;
+    font-size: 17px;
+}
+
+#Uname{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:300px;
+    height:30px;
+    border:none;
+    border-radius:3px;
+    padding-left: 8px;
+}
+
+#Pass{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:300px;
+    height:30px;
+    border:none;
+    border-radius:3px;
+    padding-left: 8px;
+}
+#log{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:300px;
+    height:30px;
+    border:none;
+    border-radius:17px;
+    padding-left:7px;
+    color:blue;
+}
+
+span{
+    color:white;
+    font-size:20px;
+}
+
+a{
+    background-color:white;
+}
+
+p{
+    color: white;
+}
